@@ -1,0 +1,7 @@
+
+sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-ports 3000
+
+ssh -i ~/zax/sness.pem ubuntu@3.230.198.81
+
+
+
